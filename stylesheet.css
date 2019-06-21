@@ -1,0 +1,311 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	background-color: ghostwhite;
+}
+
+header {
+	width: 100%;
+	height: 65px;
+	display: block;
+	background-color: #f1efef;
+}
+
+.main-header {
+	width: 80%;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.header-logo {
+	height: 100%;
+	display: table;
+	float:left;
+}
+
+.header-logo h1 {
+	color: goldenrod;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: sans-serif;
+	font-size: 32px;
+	font-weight:900;
+}
+
+.header-logo h1 span {
+	font-weight: 100;
+	color: #3e3c3c;
+}
+
+.navigation {
+	float: right;
+	height: 100%;
+}
+
+.navigation li {
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0 20px;
+}
+
+.navigation li a {
+	display: table-cell;
+	vertical-align: middle;
+	color: #3e3c3c;
+	height: 100%;
+	font-family: 'Mongolian Baiti';
+	font-size: 20px;
+}
+
+/*home body*/
+
+.home-banner {
+	width: 100%;
+	height: calc(100vh - 65px);
+	background-image: url(images/73914_3200x1967.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.home-banner h2 {
+	font-family: 'Mongolian Baiti';
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+    padding-top: 110px;
+    text-shadow: 2px 2px 2px #808080;
+}
+
+.home-banner h2 span {
+	font-weight: 900;
+    color: #c16400;
+}
+
+.home-banner p {
+	font-family: 'Mongolian Baiti';
+	font-size: 20px;
+	font-weight: 200;
+	text-align: center;
+    color: floralwhite;
+    text-shadow: 2px 2px 2px #808080;
+
+}
+
+.home-banner-button {
+	text-align:center;
+    padding-top: 90px;
+}
+
+.home-banner-button div {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.home-banner-button a {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: transparent;
+    color: black;
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 700;
+    border: outset;
+    border-width: 1.5px;
+    border-color:gray;
+}
+
+
+/*login page*/
+.login-form {
+    width: 100%;
+    height: calc(100vh - 65px);
+    background-image: url(images/75502.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.login-box {
+    width: 350px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 40px;
+}
+
+.login-box h1 {
+    margin: 0;
+    padding: 0 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.login-box p {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    padding-top: 14px;
+    font-family: 'Mongolian Baiti';
+}
+
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    padding: 3px 0;
+    }
+
+.login-box input[type='text'], input[type='password'], input[type='date'] {
+    border: none;
+    border-bottom: 1px solid goldenrod;
+    background: transparent;
+    outline: none;
+    height: 30px;
+}
+
+.login-box input[type='submit'] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: goldenrod;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.login-box a {
+    text-decoration: none;
+    font-size: 16px;
+    color: gold;
+}
+
+
+/* Signup page*/
+.signup-form {
+    width: 100%;
+    height: calc(100vh - 65px);
+    background-image: url(images/396959-2300x1294.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.signup-box {
+    width: 350px;
+    height: 520px;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    top: 50%;
+    left: 25%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+    margin-top: 35px;
+}
+
+.signup-box h1 {
+    margin: 0;
+    padding: 0 30px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.signup-box p {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    padding-top: 10px;
+    font-family: 'Mongolian Baiti';
+}
+
+
+.signup-box input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 3px 0;
+    }
+
+    .signup-box input[type='text'], input[type='email'], input[type='password'] {
+        border: none;
+        border-bottom: 1px solid goldenrod;
+        background: transparent;
+        outline: none;
+        height: 30px;
+    }
+
+.signup-box input[type='submit'] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: goldenrod;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.signup-box a {
+    text-decoration: none;
+    font-size: 16px;
+    color: gold;
+}
+/*create request*/
+.create-request p {
+    display: inline;
+}
+
+/*footer*/
+footer {
+    width: calc(100% - 60px);
+    padding: 20px 30px;
+    background-color: #3e3c3c;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+footer ul {
+	width: inherit;
+	float: left;
+	padding-left: 20px;
+}
+
+footer ul li {
+	height: 100%;
+	display: block;
+	padding: 0 20px;
+}
+
+footer ul li a {
+	color: white;
+	font-family: 'Mongolian Baiti';
+	font-size: 25px;
+	line-height: 30px;
+	}
+
+.footer-sm {
+	width: 30px;
+	float: right;
+	padding-right: 40px;
+}
+
+.footer-sm img {
+	width: 100%;
+	margin-bottom: 10px;
+}
